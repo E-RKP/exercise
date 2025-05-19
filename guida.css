@@ -64,3 +64,55 @@ body{
 #numerone{
   font-size: 4rem;
 }
+
+.ao{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  width: 10%;
+  border: 1px solid;
+  padding: 1rem 1rem;
+  background-color: rgb(224, 247, 189);
+  border-radius: 10px;
+}
+
+#numero0, #numero1, #numero2, #numero3, #numero4, #numero5, #numero6, #numero7,#numero8, #numero9{
+  background-color: rgb(21, 179, 63);
+  color: white;
+  padding: 0.5rem;
+  border: 1px solid;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.todos{
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.numeri{
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.cosi{
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+#somma, #menos, #moltiplicazione, #divisione{
+  border: 1px solid;
+  padding: 0.2rem 0.5rem;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
