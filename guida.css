@@ -36,3 +36,31 @@ body{
 #buttonn:hover{
   cursor: pointer;
 }
+
+.yeah{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.bottoni{
+  display: flex;
+  gap: 2rem;
+}
+
+#diminuire, #aggiungi{
+  border: 1px solid;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+#diminuire:hover, #aggiungi:hover{
+  cursor: pointer;
+}
+
+#numerone{
+  font-size: 4rem;
+}

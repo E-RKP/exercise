@@ -75,4 +75,46 @@ function vocalcounter (string){
 
 console.log(vocalcounter('ciao'))
 
+const numerino = document.getElementById('numerino')
+const numerone = document.getElementById('numerone')
+const diminuire = document.getElementById('diminuire')
+const aggiungi = document.getElementById('aggiungi')
+let counterB = 0
+let counterm = 0
+
+function counterp(){
+
+  counterB++;
+  counterm++;
+
+  return{
+    counterB,
+    counterm
+  };
+}
+
+function counters(){
+  counterB--;
+  counterm++;
+  if (counterB < 0){
+    counterB = 0
+  }
+
+   return{
+    counterB,
+    counterm
+  };
+}
+
+diminuire.addEventListener('click', ()=>{
+  counters();
+  numerino.innerHTML = counterm;
+  numerone.innerHTML = counterB;
+})
+
+aggiungi.addEventListener('click', ()=>{
+  counterp();
+  numerino.innerHTML = counterm;
+  numerone.innerHTML = counterB;
+})
 
